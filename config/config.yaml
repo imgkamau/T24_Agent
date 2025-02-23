@@ -1,0 +1,14 @@
+temenos:
+  base_url: "https://api.temenos.com/v1"
+  api_key: "your_api_key_here"
+
+openai:
+  api_key: "your_openai_api_key"
+
+security:
+  jwt_secret: "your_jwt_secret"
+  token_expiry: 3600  # in seconds
+
+logging:
+  level: "INFO"
+  file: "logs/t24_agent.log" 

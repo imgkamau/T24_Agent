@@ -1,0 +1,22 @@
+T24_Agent/
+├── src/
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── agent.py
+│   │   ├── nlp_processor.py
+│   │   └── security.py
+│   ├── integrations/
+│   │   ├── __init__.py
+│   │   └── temenos_api.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   └── conversation.py
+│   └── utils/
+│       ├── __init__.py
+│       └── helpers.py
+├── config/
+│   └── config.yaml
+├── tests/
+│   └── __init__.py
+├── requirements.txt
+└── README.md 
